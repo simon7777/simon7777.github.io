@@ -3,17 +3,17 @@ layout: default
 title: Funny videos
 ---
 
+s
 
 :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing:
 
 
-> > > > {% youtube U1BYWXUS_Rc %}
-
+<!-- > > > > {% youtube U1BYWXUS_Rc %} --!>
 
 
 :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing: :smile: :laughing:
 
-> > > > {% youtube wmfhZr6ySFc %}
+<!-- > > > > {% youtube wmfhZr6ySFc %} --!>
 
 
 
