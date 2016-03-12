@@ -1,0 +1,23 @@
+---
+layout: blog_layout
+main_title: My blogs
+---
+
+<!-- blogs --!>
+
+<h5>In this section, I'll load short blogs and opinions about topics being discussed recently in languages which I speak. You can give your opinions in disqus section. :)</h5>
+
+
+<ul class="blogs">
+	{% for blog in site.blogs %}
+		<li class="blogs"><a class= "bu" href="{{ blog.url }}" 
+		title="{{ blog.title }}">{{ blog.title }}</a></li>
+	{% endfor %}
+</ul>
+
+
+
+
+	
+
+
