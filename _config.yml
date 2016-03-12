@@ -1,0 +1,12 @@
+title: Simon Dekret
+email: sdekret@gmail.com
+description: This is my profile page created on subject 'Web publishing'
+git_name: http://github.com/simon7777
+gems: ["emoji_for_jekyll"]
+
+markdown: kramdown
+
+collections: 
+ blogs:
+  output: true
+

@@ -1,0 +1,21 @@
+---
+layout: default
+
+---
+
+<h1>{% if page.main_title %}{{ page.title | escape}}{% endif %} </h1>
+
+
+<title>{% if page.title %}{{ page.title | escape}}{% else %}{{ site.title | escape }} {% endif%}</title>
+
+
+<div class="blog">
+	{{ content }}	
+</div>
+
+<h6>Number of words: {{ page.content | number_of_words }} <h6>
+
+<div class="notecomments">
+	{% include disqus.html %}	 
+</div>
+
