@@ -5,7 +5,7 @@ title: my hobies
 
 # My hobbies
 
-* Programovanie
-* Čítanie kníh (Thriller, Fantasy, Krimi)
-* Učenie cudzích jazykov (Anglicky, Francúzsky, Nemecky, Španielsky)	
-* Počúvanie hudby (eclectic)
+* Programming
+* Reading books (Thriller, Fantasy, Krimi)
+* Learning foreign languages (English, French, German, Spanish)	
+* Listening music (eclectic)
