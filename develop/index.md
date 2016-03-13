@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Languages which I worked with
+# Programming languages which I worked with
 * Java
 * C
 * C++
