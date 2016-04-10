@@ -25,6 +25,36 @@ V nasledujúcej časti sa nachádzú elementy s príslušnými atribútmi, ktor�
 
 V texte som sa na takýto obrázok odvolával elementom <**xref**/> s atribútom **linkend="f:class1"**. Tento istý element a atribút som použil aj pri citovaní z použitej literatúry.
 
+Tabuľka obsahuje diagramy použité v dokumente a je vytvorená elementami tvoriacimi nasledujúcu štruktúru:
+
+    <table><title>Tabuľka diagramov UML, použitých v dokumente </title>
+			<tgroup cols='2' align='center'>
+				<thead>
+					<row>
+					  <entry>Štrukturálne</entry>
+					  <entry>Behaviorálne</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+					  <entry>Diagram tried</entry>
+					  <entry>Sekvenčný diagram</entry>
+					</row>
+					<row>
+					  <entry>Diagram objektov</entry>
+					  <entry>Diagram prípadov použitia</entry>
+					</row>
+					<row> 
+					  <entry>Diagram kompozitnej štruktúry</entry>
+					</row>
+					<row>
+					  <entry>Diagram komponentov</entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+
+
 V dokumente je použitý aj ústrižok kódu v C++, ktorý som vložil elementom <**programlisting**>
 
 Register pojmov som vytváral pomocou elementu <**indexterm**>. Na konci dokumentu sa tento register automaticky vygeneroval použitím elementu <**index**>.
