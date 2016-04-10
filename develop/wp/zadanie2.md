@@ -8,11 +8,14 @@ project: 2
 
 Predmetom 2. zadania je spracovanie vybraného dokumentu (ideálne bakalárskeho projektu) z pôvodného ľubovoľného (Word, OpenOffice, LaTeX, …) formátu do formátu DocBook a vygenerovanie cieľového tvaru v PDF. Výsledný dokument bude mať rozsah minimálne 10 a maximálne 15 strán. Do rozsahu sa nezapočítavajú úvodné strany (obsah, zoznamy obrázkov a tabuliek), použitá literatúra a prílohy.
 
+
 ## Vypracovanie
 
 Dokument je rozdelený na 3 kapitoly: Úvod, Pozícia diagramu kompozitnej štruktúry v UML, Záver. Na rozčlenenie do kapitol som použil klasický element <**chapter**>, ktoré sú následné členené na sekcie <**section**>.
 
 V texte som použil element na zvýraznenie textu, resp. slov, ktoré boli pre danú časť dôležité: <**emphasis**>.
+
+### Obrázok
 
 V nasledujúcej časti sa nachádzú elementy s príslušnými atribútmi, ktoré som použil na vloženie diagramu do textu:
 
@@ -26,6 +29,8 @@ V nasledujúcej časti sa nachádzú elementy s príslušnými atribútmi, ktor�
 	</figure>
 
 V texte som sa na takýto obrázok odvolával elementom <**xref**/> s atribútom **linkend="f:class1"**. Tento istý element a atribút som použil aj pri citovaní z použitej literatúry.
+
+### Tabuľka
 
 Tabuľka obsahuje diagramy použité v dokumente a je vytvorená elementami tvoriacimi nasledujúcu štruktúru:
 
@@ -59,11 +64,15 @@ Tabuľka obsahuje diagramy použité v dokumente a je vytvorená elementami tvor
 
 V dokumente je použitý aj ústrižok kódu v C++, ktorý som vložil elementom <**programlisting**>
 
+### Index
+
 Register pojmov som vytváral pomocou elementu <**indexterm**>. Na konci dokumentu sa tento register automaticky vygeneroval použitím elementu <**index**>.
 
     <indexterm>
     	<primary>štruktúra</primary>
     	<secondary>kolaborácia</secondary>
     </indexterm>
-    
+  
+### XSL
+
 V xsl súbore **thesis-tp-fo** som pridal atribút **hyphenate=”false** do šablóny **book.titlepage.before.recto** a taktiež som zmenšil písmo book.titlepage.before.recto na 18pt, kvôli tomu, aby sa názov Bratislavy zmestil do jedného riadku.
