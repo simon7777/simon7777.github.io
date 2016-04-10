@@ -15,11 +15,11 @@ V texte som použil element na zvýraznenie textu, resp. slov, ktoré boli pre d
 V nasledujúcej časti sa nachádza 
 
     <figure id="f:class1"><title>Štruktúra diagramu tried</title>
-					<mediaobject>
-					  <imageobject>
-						<imagedata fileref="fig/class1.png"/>
-					  </imageobject>
-					  <textobject><phrase>Štruktúra diagramu tried</phrase></textobject>
-					</mediaobject>
-		</figure>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="fig/class1.png"/>
+			</imageobject>
+			<textobject><phrase>Štruktúra diagramu tried</phrase></textobject>
+		</mediaobject>
+	</figure>
 
