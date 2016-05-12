@@ -9,4 +9,4 @@ title: Web publishing
 
 [Project 2](/develop/wp/zadanie2)
 
-Project 3
+[Project 3](/develop/wp/zadanie3)
