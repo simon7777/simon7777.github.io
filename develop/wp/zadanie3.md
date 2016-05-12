@@ -1,9 +1,9 @@
 ---
 layout: web_publishing
-title: Transformácia vybraného dokumentu do formátu DocBook
+title: XML prezentácia
 author: Šimon Dekrét
-date: 10.04.2016
-project: 2
+date: 12.05.2016
+project: 3
 ---
 
 ## Zadanie
