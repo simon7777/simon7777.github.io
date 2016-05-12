@@ -64,9 +64,9 @@ Na customizovanie výstupu HTML používateľom som vytvoril vlastný súbor. Je
 Tento dokument som importoval do súboru, v ktorom boli vytvorené transformácie.
 
 V trasnformáciach vytvorám okrem iného niekoľko prvkov prezentácie, ktoré nie sú explicitne zadané používateľom. Medzi ne patria:
-	1. Obsah,
-	2. Číslovanie slidov,
-	3. Jednoduchý prechod medzi predchádzajúcim a nasledujúcim slidom.
+1. Obsah,
+2. Číslovanie slidov,
+3. Jednoduchý prechod medzi predchádzajúcim a nasledujúcim slidom.
 
 
 
