@@ -25,25 +25,25 @@ Dokument som opísal pomocou DTD súboru 'presentation.dtd'.
 
 Prezentáciu som urobil o Slovensku. V nasledujúcej časti sú zobrazené dva slidy:
 
-        <title_slide>
+    <title_slide>
     		<topic>Slovakia</topic>
     		<presented_by>Simon Dekret</presented_by>
     		<date>May 10, 2016</date>
-    	</title_slide>
-    	<slide>
-    		<title>Basic info</title>
-    		<content>
-    			<ul>
-    				<li>Area: 49,035km2</li>
-    				<li>Population: 5,415,949</li>
-    				<li>GDP total: $158,428 billion</li>
-    				<li>GDP per capita: $29,209</li>
-    				<li>Currency: euro</li>
-    				<li>HDI: 0.844(very high)</li>
-    				<li>Official language: Slovak</li>
-    			</ul>
-    		</content>
-    	</slide>
+    </title_slide>
+    <slide>
+    	<title>Basic info</title>
+    	<content>
+    		<ul>
+    	    	<li>Area: 49,035km2</li>
+    			<li>Population: 5,415,949</li>
+    			<li>GDP total: $158,428 billion</li>
+    			<li>GDP per capita: $29,209</li>
+				<li>Currency: euro</li>
+    			<li>HDI: 0.844(very high)</li>
+    			<li>Official language: Slovak</li>
+    		</ul>
+		</content>
+    </slide>
     	
 ### Transformácie do HTML
 
